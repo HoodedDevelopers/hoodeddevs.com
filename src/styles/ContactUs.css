@@ -1,0 +1,53 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 0;
+}
+
+.contact-us-title {
+  margin: 0;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 75px;
+}
+
+.contact-us-content {
+  text-align: center;
+}
+
+.contact-us-details {
+  margin: 25px 0;
+}
+
+.contact-item {
+  margin: 15px 0;
+}
+
+.contact-item>span {
+  margin-right: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-email {
+}
+
+.contact-phone {
+  margin-left: -9px;
+}
+
+.contact-insta {
+  margin-left: -57px;
+}
+
+.contact-fb {
+  margin-left: -44px;
+}
+
+.contact-twitter {
+  margin-left: -27px;
+}

@@ -1,0 +1,46 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 30px;
+}
+
+.aboutUs-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutUs-profile {
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 25px 0;
+}
+
+.aboutUs-name {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aboutUs-nickname {
+  width: 150px;
+  margin: 0;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.aboutUs-socials {
+  margin-top: 20px;
+}
+
+.aboutUs-pic {
+  width: 50%;
+}
+
+.aboutUs-item > span {
+  margin-right: 15px;
+}
