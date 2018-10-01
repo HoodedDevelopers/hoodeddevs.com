@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import './styles/App.css';
-
-library.add(faStroopwafel);
+import TechCard from './components/TechCard.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainarea: 'HOME'
+
     }
 
     this.handler = this.handler.bind(this);
@@ -25,10 +25,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-      </div>
+      <AppBody>
+        <TechCard technology="react"/>
+        <TechCard technology="awscloud"/>
+      </AppBody>
     );
   }
 }
+
+// styles
+const AppBody = styled.section`
+  padding: 15px;
+`;
 
 export default App;
